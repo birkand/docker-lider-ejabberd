@@ -94,7 +94,7 @@ For more `ERLANG_NODE` formats see `ejabberdctl.cfg.tpl`.
 By default the erlang cookie is generated when ejabberd starts and can't find the `.erlang.cookie` file in $HOME. To set your own cookie provide the `ERLANG_COOKIE` variable with your cookie such as:
 
 ```
-$ docker run -d -P -e "ERLANG_COOKIE=YOURERLANGCOOKIE" rroemhild/ejabberd
+$ docker run -d -P -e "ERLANG_COOKIE=YOURERLANGCOOKIE" birkand/docker-lider-ejabberd
 ```
 
 ## Run ejabberdctl in container
