@@ -1,5 +1,5 @@
-FROM ubuntu:14.04
-MAINTAINER Rafael Römhild <rafael@roemhild.de>
+FROM phusion/baseimage:0.9.8
+MAINTAINER Birkan Duman <birkan.duman@gmail.com>
 
 ENV EJABBERD_VERSION 14.12
 ENV EJABBERD_USER ejabberd
